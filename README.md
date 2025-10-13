@@ -15,3 +15,21 @@ The results are then presented in the form of a website using NextJS and Framer 
 To contribute, fork this repository and make pull requests.
 
 The project's main goals is to make the UI as easy to use as possible, to empower users with information about the best homebrew available. Contributions that improve the UI or the data itself are most likely to be accepted. Contributions might be refused if they make the UI too complex or clunky to use.
+
+# TO-DO List:
+* Write & use the web scrapers
+* Set up a cron that automatically runs the web scrapers once a day
+* Improve the UI:
+    * Add a tab bar at the top to select between different sources: DMsGuild, DTRPG, Reddit, maybe a 4th one?
+    * Add better and prettier date controls:
+        * Presentation mode, which automatically moves once per second
+        * Granularity control, where you can move 1 day, 1 week, 1 month, 1 year, or pick a date?
+    * Filters
+        * By author 
+        * by tags
+    * Alt data visualizations:
+        * Ranking of which products have stayed in the top X the longest
+        * Ranking of which authors have stayed in the top X the longest or have had the most titles in the top X
+        * Bar chart of the tags that are most frequent in the top X for a given time period
+
+
