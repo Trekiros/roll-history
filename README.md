@@ -26,7 +26,8 @@ The project's main goals is to make the UI as easy to use as possible, to empowe
         * Granularity control, where you can move 1 day, 1 week, 1 month, 1 year, or pick a date?
     * Filters
         * By author 
-        * by tags
+        * By tags
+        * By price
     * Alt data visualizations:
         * Ranking of which products have stayed in the top X the longest
         * Ranking of which authors have stayed in the top X the longest or have had the most titles in the top X
