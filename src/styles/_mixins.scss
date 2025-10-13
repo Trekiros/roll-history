@@ -1,0 +1,63 @@
+@import './variables';
+
+@mixin scrollable {
+    overflow-y: auto;
+    scrollbar-gutter: stable;
+
+    // Firefox
+    scrollbar-color: #888 $bg_light;
+
+    // Chromium
+    &::-webkit-scrollbar { width: 12px; }
+    &::-webkit-scrollbar-track { background: $bg_light }
+    &::-webkit-scrollbar-thumb { background: #888 }
+}
+
+// Macro for buttons & other clickable elements
+@mixin clickable {
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+    color: $text;
+    padding: 1em 2em;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+
+    background-color: $bg_light;
+    transition: background-color 0.3s;
+    
+    &:hover:not(.disabled) { background-color: $bg_highlight }
+
+    &:disabled {
+        background: transparent;
+        color: #aaa;
+        cursor: initial;
+        pointer-events: none;
+    }
+
+    &.primary {
+        background: #d49f60;
+
+        &:hover { background: #e7ab62 }
+    }
+
+    &.cancel {
+        background: transparent;
+        outline: 4px solid #e7ab62;
+        outline-offset: -4px;
+
+        &:hover { background: #0003 }
+    }
+
+    svg {
+        margin: 0;
+        width: 1em;
+    }
+}

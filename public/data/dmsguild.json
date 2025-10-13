@@ -1,0 +1,31 @@
+{
+    "name": "DMsGuild",
+    "rankings": [
+        {
+            "timestamp": 0,
+            "titleIds": ["abcd", "1234"]
+        },
+        {
+            "timestamp": 2,
+            "titleIds": ["1234", "abcd"]
+        },
+        {
+            "timestamp": 4,
+            "titleIds": ["abcd", "1234"]
+        }
+    ],
+    "titles": {
+        "1234": {
+            "name": "Super cool Book",
+            "url": "https://www.dmsguild.com/1234",
+            "authors": ["Me", "Someone Else"],
+            "tags": ["Adventure", "Monsters", "Fantasy"]
+        },
+        "abcd": {
+            "name": "Another book",
+            "url": "https://www.dmsguild.com/abcd",
+            "authors": ["Not Me", "A Fourth Person"],
+            "tags": ["Monsters", "Medieval"]
+        }
+    }
+}

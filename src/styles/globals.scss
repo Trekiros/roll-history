@@ -1,0 +1,48 @@
+@import './mixins';
+@import './variables';
+
+// General style & layout
+html { @include scrollable; scrollbar-gutter: unset }
+html, body, #__next {min-height: 100vh; background: $bg; color: $text; margin: 0; padding:0 }
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body, input, button { font-size: 10pt; }
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div, button, nav, section, main, body, ul, li, input {
+    box-sizing: border-box;
+}
+
+h1, h2 { margin: 0 }
+button {
+    @include clickable;
+}
+
+input {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    padding: 1em;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    color: $text;
+    background: $bg_light;
+    transition: background-color 0.3s;
+    &:hover { background: $bg_highlight }
+    &::placeholder { color: #aaa }
+
+    &[type='number'] {
+      appearance: 'textfield';
+      -moz-appearance: textfield;
+
+      &::-webkit-inner-spin-button, 
+      &::-webkit-outer-spin-button { appearance: none; margin: 0 }
+    }
+}
