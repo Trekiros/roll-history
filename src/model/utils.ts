@@ -1,4 +1,4 @@
-import { DependencyList, useEffect, useState } from "react";
+import { DependencyList, useEffect, useRef, useState } from "react";
 import { Category, CategorySchema } from "./model";
 
 export function usePromise<T>(promiseFn: () => Promise<T>, deps: DependencyList = []) {

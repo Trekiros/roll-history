@@ -3,11 +3,11 @@
     "rankings": [
         {
             "timestamp": 0,
-            "titleIds": ["abcd", "1234"]
+            "titleIds": ["abcd", "1234", "efgh"]
         },
         {
             "timestamp": 2,
-            "titleIds": ["1234", "abcd"]
+            "titleIds": ["1234", "abcd", "5678"]
         },
         {
             "timestamp": 4,
@@ -24,6 +24,18 @@
         "abcd": {
             "name": "Another book",
             "url": "https://www.dmsguild.com/abcd",
+            "authors": ["Not Me", "A Fourth Person"],
+            "tags": ["Monsters", "Medieval"]
+        },
+        "5678": {
+            "name": "A third book",
+            "url": "https://www.dmsguild.com/5678",
+            "authors": ["Not Me", "A Fourth Person"],
+            "tags": ["Monsters", "Medieval"]
+        },
+        "efgh": {
+            "name": "A Fourth book",
+            "url": "https://www.dmsguild.com/efgh",
             "authors": ["Not Me", "A Fourth Person"],
             "tags": ["Monsters", "Medieval"]
         }
