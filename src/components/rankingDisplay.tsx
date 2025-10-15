@@ -4,8 +4,6 @@ import styles from './rankingDisplay.module.scss'
 import { motion, AnimatePresence } from "framer-motion";
 import { TitleDisplay } from "./titleDisplay";
 
-export const ANIMATION_DURATION = 0.5; // in seconds
-
 export type Annotation = {
     text: string,
     type: "positive"|"negative"|"neutral"
