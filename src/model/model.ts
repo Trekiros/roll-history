@@ -10,8 +10,6 @@ export const TitleSchema = z.object({
     name: z.string(),
     url: z.url(),
     img: z.url().optional(),
-    authors: z.array(z.string()),
-    tags: z.array(z.string()),
 })
 export type TitleEntry = z.infer<typeof TitleSchema>
 

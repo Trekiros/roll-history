@@ -61,3 +61,19 @@
         width: 1em;
     }
 }
+
+@mixin slideIn {
+    transform-origin: top;
+
+    animation-name: slideIn;
+    animation-duration: 300ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+
+    @keyframes slideIn {
+        0% { opacity: 0; transform: scaleY(0) }
+        50% { opacity: 1 }
+        100% { transform: scaleY(1) }
+    }
+}

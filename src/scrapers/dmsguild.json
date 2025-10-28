@@ -1,0 +1,384 @@
+{
+  "name": "DMsGuild",
+  "rankings": [
+    {
+      "timestamp": 20160123212417,
+      "titleIds": [
+        "170778",
+        "170777",
+        "170753",
+        "170686",
+        "170971",
+        "170750",
+        "170754",
+        "170755",
+        "171047",
+        "170966",
+        "171110",
+        "170749",
+        "170748",
+        "170888",
+        "170946",
+        "171117",
+        "171138",
+        "171039",
+        "170926",
+        "170903",
+        "170974",
+        "170957",
+        "170745",
+        "170988",
+        "171120",
+        "170756",
+        "170802",
+        "170884",
+        "170975",
+        "170744"
+      ]
+    },
+    {
+      "timestamp": 20160215211033,
+      "titleIds": [
+        "176799",
+        "175606",
+        "170778",
+        "170777",
+        "171458",
+        "176659",
+        "177212",
+        "172273",
+        "170966",
+        "173593",
+        "171258",
+        "177464",
+        "174790",
+        "175665",
+        "175177",
+        "172470",
+        "177426",
+        "176956",
+        "174973",
+        "172527",
+        "174686",
+        "171771",
+        "177424",
+        "173091",
+        "177331",
+        "177517",
+        "171463",
+        "177294",
+        "177779",
+        "170971"
+      ]
+    },
+    {
+      "timestamp": 20160216213344,
+      "titleIds": [
+        "170778",
+        "170777",
+        "171458",
+        "174686",
+        "173593",
+        "172273",
+        "171258",
+        "174790",
+        "172527",
+        "170966",
+        "172470",
+        "174902",
+        "174389",
+        "173091",
+        "174904",
+        "170753",
+        "171771",
+        "170971",
+        "173647",
+        "171275",
+        "172545",
+        "174392",
+        "173361",
+        "171463",
+        "170750",
+        "172212",
+        "174898",
+        "172575",
+        "172032",
+        "170754"
+      ]
+    }
+  ],
+  "titles": {
+    "170686": {
+      "name": "Savage Heroes - New Races and Backgrounds",
+      "url": "https://www.dmsguild.com/product/170686?affiliate_id=2038543"
+    },
+    "170744": {
+      "name": "Book of Beasts: Demon Depository",
+      "url": "https://www.dmsguild.com/product/170744?affiliate_id=2038543"
+    },
+    "170745": {
+      "name": "The Five Temples of the Earthmother Part 1: Life and Moon",
+      "url": "https://www.dmsguild.com/product/170745?affiliate_id=2038543"
+    },
+    "170748": {
+      "name": "D&amp;D Citizens: Dwarves",
+      "url": "https://www.dmsguild.com/product/170748?affiliate_id=2038543"
+    },
+    "170749": {
+      "name": "D&amp;D Citizens: Elves",
+      "url": "https://www.dmsguild.com/product/170749?affiliate_id=2038543"
+    },
+    "170750": {
+      "name": "D&amp;D Citizens: Extra NPCs",
+      "url": "https://www.dmsguild.com/product/170750?affiliate_id=2038543"
+    },
+    "170753": {
+      "name": "D&amp;D Denizens: Drow &amp; Driders",
+      "url": "https://www.dmsguild.com/product/170753?affiliate_id=2038543"
+    },
+    "170754": {
+      "name": "D&amp;D Denizens: Goblins",
+      "url": "https://www.dmsguild.com/product/170754?affiliate_id=2038543"
+    },
+    "170755": {
+      "name": "D&amp;D Denizens: Orcs",
+      "url": "https://www.dmsguild.com/product/170755?affiliate_id=2038543"
+    },
+    "170756": {
+      "name": "D&amp;D Denizens: Underdark Monsters",
+      "url": "https://www.dmsguild.com/product/170756?affiliate_id=2038543"
+    },
+    "170777": {
+      "name": "Blood Hunter Class",
+      "url": "https://www.dmsguild.com/product/170777?affiliate_id=2038543"
+    },
+    "170778": {
+      "name": "Gunslinger Martial Archetype for Fighters",
+      "url": "https://www.dmsguild.com/product/170778?affiliate_id=2038543"
+    },
+    "170802": {
+      "name": "Book of Beasts: Underdark Vault",
+      "url": "https://www.dmsguild.com/product/170802?affiliate_id=2038543"
+    },
+    "170884": {
+      "name": "A Lesson in Scripture",
+      "url": "https://www.dmsguild.com/product/170884?affiliate_id=2038543"
+    },
+    "170888": {
+      "name": "Monster Mausoleum",
+      "url": "https://www.dmsguild.com/product/170888?affiliate_id=2038543"
+    },
+    "170903": {
+      "name": "The Artificer (of Alancia)",
+      "url": "https://www.dmsguild.com/product/170903?affiliate_id=2038543"
+    },
+    "170926": {
+      "name": "Elemental Cleric (5E)",
+      "url": "https://www.dmsguild.com/product/170926?affiliate_id=2038543"
+    },
+    "170946": {
+      "name": "Battle for the Undercity",
+      "url": "https://www.dmsguild.com/product/170946?affiliate_id=2038543"
+    },
+    "170957": {
+      "name": "Warlord - Martial Archetype",
+      "url": "https://www.dmsguild.com/product/170957?affiliate_id=2038543"
+    },
+    "170966": {
+      "name": "Blood Magic (5e)",
+      "url": "https://www.dmsguild.com/product/170966?affiliate_id=2038543"
+    },
+    "170971": {
+      "name": "Swordmage Class",
+      "url": "https://www.dmsguild.com/product/170971?affiliate_id=2038543"
+    },
+    "170974": {
+      "name": "Death Stalker: A Ranger Archetype",
+      "url": "https://www.dmsguild.com/product/170974?affiliate_id=2038543"
+    },
+    "170975": {
+      "name": "5e Monk Subclass - The Kensei",
+      "url": "https://www.dmsguild.com/product/170975?affiliate_id=2038543"
+    },
+    "170988": {
+      "name": "The Inquisitor, a new background",
+      "url": "https://www.dmsguild.com/product/170988?affiliate_id=2038543"
+    },
+    "171039": {
+      "name": "The Pathwarden: A Ranger Archetype by 5by3 Games",
+      "url": "https://www.dmsguild.com/product/171039?affiliate_id=2038543"
+    },
+    "171047": {
+      "name": "The Living Constructs -  Warforged and Shardminds",
+      "url": "https://www.dmsguild.com/product/171047?affiliate_id=2038543"
+    },
+    "171110": {
+      "name": "Warden Class",
+      "url": "https://www.dmsguild.com/product/171110?affiliate_id=2038543"
+    },
+    "171117": {
+      "name": "New Player Races (Lizardfolk &amp; Ibixian)",
+      "url": "https://www.dmsguild.com/product/171117?affiliate_id=2038543"
+    },
+    "171120": {
+      "name": "Calendar of Harptos",
+      "url": "https://www.dmsguild.com/product/171120?affiliate_id=2038543"
+    },
+    "171138": {
+      "name": "Tome of Templates",
+      "url": "https://www.dmsguild.com/product/171138?affiliate_id=2038543"
+    },
+    "171258": {
+      "name": "18 Extra Feats (5e)",
+      "url": "https://www.dmsguild.com/product/171258?affiliate_id=2038543"
+    },
+    "171275": {
+      "name": "New Feats",
+      "url": "https://www.dmsguild.com/product/171275?affiliate_id=2038543"
+    },
+    "171458": {
+      "name": "Additional Archetypes",
+      "url": "https://www.dmsguild.com/product/171458?affiliate_id=2038543"
+    },
+    "171463": {
+      "name": "D&amp;D 5e Monster Expansion",
+      "url": "https://www.dmsguild.com/product/171463?affiliate_id=2038543"
+    },
+    "171771": {
+      "name": "15 New Backgrounds - World Builder Blog Presents",
+      "url": "https://www.dmsguild.com/product/171771?affiliate_id=2038543"
+    },
+    "172032": {
+      "name": "5MWD Presents: Traps",
+      "url": "https://www.dmsguild.com/product/172032?affiliate_id=2038543"
+    },
+    "172212": {
+      "name": "The Necromancer Spellbook (5e)",
+      "url": "https://www.dmsguild.com/product/172212?affiliate_id=2038543"
+    },
+    "172273": {
+      "name": "D&amp;D 5e Player Cheat Sheet",
+      "url": "https://www.dmsguild.com/product/172273?affiliate_id=2038543"
+    },
+    "172470": {
+      "name": "Adversaries &amp; Allies",
+      "url": "https://www.dmsguild.com/product/172470?affiliate_id=2038543"
+    },
+    "172527": {
+      "name": "Frozen Castle - Expanding Tyranny of Dragons",
+      "url": "https://www.dmsguild.com/product/172527?affiliate_id=2038543"
+    },
+    "172545": {
+      "name": "DM's Kit: On the Trail of Tyranny",
+      "url": "https://www.dmsguild.com/product/172545?affiliate_id=2038543"
+    },
+    "172575": {
+      "name": "Al-Qadim Archetypes: Scimitars Against the Dark",
+      "url": "https://www.dmsguild.com/product/172575?affiliate_id=2038543"
+    },
+    "173091": {
+      "name": "5MWD Presents: Diseases &amp; Poisons",
+      "url": "https://www.dmsguild.com/product/173091?affiliate_id=2038543"
+    },
+    "173361": {
+      "name": "Terror at Triboar - 2nd Level Adventure",
+      "url": "https://www.dmsguild.com/product/173361?affiliate_id=2038543"
+    },
+    "173593": {
+      "name": "Journey Through the Center of the Underdark",
+      "url": "https://www.dmsguild.com/product/173593?affiliate_id=2038543"
+    },
+    "173647": {
+      "name": "Drizzt's Armory: Weapons of War",
+      "url": "https://www.dmsguild.com/product/173647?affiliate_id=2038543"
+    },
+    "174389": {
+      "name": "The Temple of Shattered Minds",
+      "url": "https://www.dmsguild.com/product/174389?affiliate_id=2038543"
+    },
+    "174392": {
+      "name": "D&amp;D Denizens: Skeletons &amp; Skeletal Monsters",
+      "url": "https://www.dmsguild.com/product/174392?affiliate_id=2038543"
+    },
+    "174686": {
+      "name": "Feats of Heroism: 36 New Feats for 5th Edition",
+      "url": "https://www.dmsguild.com/product/174686?affiliate_id=2038543"
+    },
+    "174790": {
+      "name": "50 New Magic Items - World Builder Blog Presents",
+      "url": "https://www.dmsguild.com/product/174790?affiliate_id=2038543"
+    },
+    "174898": {
+      "name": "5MWD Presents: Maneuvers &amp; Commander",
+      "url": "https://www.dmsguild.com/product/174898?affiliate_id=2038543"
+    },
+    "174902": {
+      "name": "The Archomentals",
+      "url": "https://www.dmsguild.com/product/174902?affiliate_id=2038543"
+    },
+    "174904": {
+      "name": "The Tables of  Death and Dismemberment: Piercing Damage",
+      "url": "https://www.dmsguild.com/product/174904?affiliate_id=2038543"
+    },
+    "174973": {
+      "name": "D&amp;D 5e - Expanded Armory and Gear",
+      "url": "https://www.dmsguild.com/product/174973?affiliate_id=2038543"
+    },
+    "175177": {
+      "name": "Race Compendium - Volume One",
+      "url": "https://www.dmsguild.com/product/175177?affiliate_id=2038543"
+    },
+    "175606": {
+      "name": "Order of the Lycan for Blood Hunters",
+      "url": "https://www.dmsguild.com/product/175606?affiliate_id=2038543"
+    },
+    "175665": {
+      "name": "The Dungeon Master's Handbook",
+      "url": "https://www.dmsguild.com/product/175665?affiliate_id=2038543"
+    },
+    "176659": {
+      "name": "Heroes of the Mists",
+      "url": "https://www.dmsguild.com/product/176659?affiliate_id=2038543"
+    },
+    "176799": {
+      "name": "Ravenloft Archetypes: Nightmares of Barovia",
+      "url": "https://www.dmsguild.com/product/176799?affiliate_id=2038543"
+    },
+    "176956": {
+      "name": "Spells of Ravenloft",
+      "url": "https://www.dmsguild.com/product/176956?affiliate_id=2038543"
+    },
+    "177212": {
+      "name": "$1.00 Magic Item Compilation Set 1",
+      "url": "https://www.dmsguild.com/product/177212?affiliate_id=2038543"
+    },
+    "177294": {
+      "name": "Darker Gifts - Curse of Strahd Expansion",
+      "url": "https://www.dmsguild.com/product/177294?affiliate_id=2038543"
+    },
+    "177331": {
+      "name": "Plants and Fungi of the Realms",
+      "url": "https://www.dmsguild.com/product/177331?affiliate_id=2038543"
+    },
+    "177424": {
+      "name": "The Oath Of Shadow: A Sacred Oath For Paladins",
+      "url": "https://www.dmsguild.com/product/177424?affiliate_id=2038543"
+    },
+    "177426": {
+      "name": "The Oath Of The Weave: A Sacred Oath For Paladins",
+      "url": "https://www.dmsguild.com/product/177426?affiliate_id=2038543"
+    },
+    "177464": {
+      "name": "5e Racial Handbook - Over 40 New Races and Subraces",
+      "url": "https://www.dmsguild.com/product/177464?affiliate_id=2038543"
+    },
+    "177517": {
+      "name": "Ravenloft Backgrounds",
+      "url": "https://www.dmsguild.com/product/177517?affiliate_id=2038543"
+    },
+    "177779": {
+      "name": "AlanVenic Tome of the Warlock",
+      "url": "https://www.dmsguild.com/product/177779?affiliate_id=2038543"
+    }
+  }
+}

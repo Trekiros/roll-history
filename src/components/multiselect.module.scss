@@ -1,0 +1,51 @@
+@import './../styles/mixins';
+@import './../styles/variables';
+
+.select {
+    border-radius: 8px;
+    width: 100%;
+
+    .control {
+        background: $bg_light; 
+        border: none;
+        border-radius: 8px;
+        box-shadow: none;
+
+        &:hover { background: $bg_highlight }
+    }
+
+    .input { color: $text }
+    .singleValue, .multiValueLabel { color: $text; text-align: center }
+
+    .multiValue {
+        background: $bg_light;
+        color: $text;
+    }
+
+    .multiValueRemove {
+        background: none!important;
+
+        &:hover svg { color: $error }
+    }
+
+    .indicator, .indicatorSeparator { display: none }
+
+    .menu {
+        min-width: 150px;
+        margin: 0;
+        background: $bg_light;
+        border-radius: 8px;
+        box-shadow: 0px 10px 10px 0px #000a;
+
+        @include slideIn;
+    }
+
+    .menuList {
+        max-height: 10em;
+        @include scrollable;
+    }
+    
+    // Options
+    .isSelected { background: $bg_highlight!important }
+    .isFocused { background: $bg_light!important }
+}
