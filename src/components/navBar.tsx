@@ -9,8 +9,8 @@ type PropType = {
     source: string,
     onSourceChange: (newValue: string) => void,
 
-    style: "table"|"graph",
-    onStyleChange: (newValue: "table"|"graph") => void,
+    style: "table"|"graph"|"top",
+    onStyleChange: (newValue: "table"|"graph"|"top") => void,
 }
 
 export const NavBar: FC<PropType> = ({ source, onSourceChange, style, onStyleChange }) => {
@@ -31,7 +31,11 @@ export const NavBar: FC<PropType> = ({ source, onSourceChange, style, onStyleCha
             <Select
                 className={styles.select}
                 value={style}
-                options={[{ value: "table", label: "Table" }, { value: "graph", label: "Graph" }]}
+                options={[
+                    { value: "table", label: "Table" }, 
+                    { value: "graph", label: "Graph" },
+                    { value: "top", label: "Staying Power"},
+                ]}
                 onChange={onStyleChange} />
 
             <button
@@ -55,7 +59,11 @@ export const NavBar: FC<PropType> = ({ source, onSourceChange, style, onStyleCha
                     <Select
                         className={styles.select}
                         value={style}
-                        options={[{ value: "table", label: "Table" }, { value: "graph", label: "Graph" }]}
+                        options={[
+                            { value: "table", label: "Table" }, 
+                            { value: "graph", label: "Graph" },
+                            { value: "top", label: "Staying Power"},
+                        ]}
                         onChange={onStyleChange} />
                 </div>
             </div>

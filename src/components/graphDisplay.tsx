@@ -125,7 +125,9 @@ export const GraphDisplay: FC<{ category: Category, initialFilter?: string[] }> 
 				if ((index > 0) && (index <= top)) {
 					appears = true
 					dataset.data.push({ x: ranking.timestamp, y: index })
-				}
+				} else {
+                    dataset.data.push({ x: ranking.timestamp, y: null })
+                }
 			}
 
 			if (appears) {
@@ -284,25 +286,25 @@ function idToColor(id: number): string {
 	return `hsl(${hue}, ${saturation}%, ${lightness}%)`;
 }
 
-function oneMonthEarlier(timestamp: number) {
+export function oneMonthEarlier(timestamp: number) {
     const date = new Date(timestamp)
 	date.setMonth(date.getMonth() - 1)
 	return date.getTime()
 }
 
-function oneMonthLater(timestamp: number) {
+export function oneMonthLater(timestamp: number) {
     const date = new Date(timestamp)
 	date.setMonth(date.getMonth() + 1)
 	return date.getTime()
 }
 
-function oneYearEarlier(timestamp: number) {
+export function oneYearEarlier(timestamp: number) {
     const date = new Date(timestamp)
 	date.setFullYear(date.getFullYear() - 1)
 	return date.getTime()
 }
 
-function oneYearLater(timestamp: number) {
+export function oneYearLater(timestamp: number) {
     const date = new Date(timestamp)
 	date.setFullYear(date.getFullYear() + 1)
 	return date.getTime()

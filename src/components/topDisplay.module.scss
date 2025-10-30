@@ -1,0 +1,116 @@
+@import "../styles/variables";
+
+
+.returnBtn {
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+}
+
+
+.topDisplay {
+    .mode {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 1em 1em 0 1em;
+
+        button { 
+            color: #aaa;
+            &:disabled { background: $bg_highestlight; color: $text }
+        }
+        > :first-child { border-radius: 1em 0 0 1em }
+        > :last-child { border-radius: 0 1em 1em 0 }
+
+        @media (width < 800px) {
+            grid-template-columns: 1fr;
+
+            > :first-child { border-radius: 1em 1em 0 0 }
+            > :last-child { border-radius: 0 0 1em 1em }
+        }
+    }
+
+    .top {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        gap: 1em;
+        align-items: center;
+        margin: 1em 1em 0 1em;
+    }
+    
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        @media (width < 800px) {
+            flex-direction: column;
+            gap: 1em;
+            margin-top: 1em;
+        }
+    }
+
+    .start, .end {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+
+        > label {
+            font-weight: bold;
+            display: none;
+
+            @media (width < 800px) {
+                display: block;
+            }
+        }
+
+        .month, .year {
+            display: flex;
+            align-items: center;
+        
+            > button {
+                padding: 6px;
+                background: none;
+                color: #aaa;
+                transition: color 200ms;
+        
+                &:hover { background: none; color: $text }
+                &:disabled { color: transparent }
+            }
+
+            > input {
+                padding: 6px;
+                width: 60px;
+                text-align: center;
+                
+                &:not(:hover) { background: none }
+            }
+
+            .select {
+                padding: 6px;
+                width: 100px;
+                text-align: center;
+
+                .selectInput {
+                    border: none;
+
+                    background: none;
+                    &:hover { background: $bg_light }
+                }
+            }
+        }
+    }
+
+    .row {
+        display: grid;
+        align-items: center;
+        grid-template-columns: 50px 1fr;
+        gap: 1em;
+
+        .rank {
+            text-align: center;
+            font-size: large;
+            font-weight: bold;
+        }
+    }
+}
