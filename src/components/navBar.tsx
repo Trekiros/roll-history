@@ -3,7 +3,7 @@ import styles from "./navBar.module.scss"
 import Select from "./select"
 import { Sources } from "@/pages"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faBars, faBurger } from "@fortawesome/free-solid-svg-icons"
+import { faBars } from "@fortawesome/free-solid-svg-icons"
 
 type PropType = {
     source: string,

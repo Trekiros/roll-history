@@ -1,4 +1,4 @@
-import { Category, Ranking, TitleEntry } from "@/model/model";
+import { Category } from "@/model/model";
 import { FC, useMemo, useState } from "react";
 import styles from './tableDisplay.module.scss'
 import { motion, AnimatePresence } from "framer-motion";

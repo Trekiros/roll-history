@@ -102,7 +102,7 @@ export const GraphDisplay: FC<{ category: Category, initialFilter?: string[] }> 
 		))
 
 		const datasets: ChartDataset<"line">[] = []
-		for (let titleId in category.titles) {
+		for (const titleId in category.titles) {
 			if (filter.length && !filter.find(id => id === titleId)) continue;
 
 			const { name, url, img } = category.titles[titleId]
@@ -120,7 +120,7 @@ export const GraphDisplay: FC<{ category: Category, initialFilter?: string[] }> 
 			}
 
 			let appears = false
-			for (let ranking of filteredRankings) {
+			for (const ranking of filteredRankings) {
 				const index = ranking.titleIds.indexOf(titleId) + 1
 				if ((index > 0) && (index <= top)) {
 					appears = true
@@ -141,7 +141,7 @@ export const GraphDisplay: FC<{ category: Category, initialFilter?: string[] }> 
 
 	const filterOptions = useMemo(() => {
 		const uniqueIds = new Set<string>()
-		for (let ranking of category.rankings) {
+		for (const ranking of category.rankings) {
 			if ((ranking.timestamp >= start) && (ranking.timestamp <= end)) {
 				for (let i = 0 ; (i < top) && (i < ranking.titleIds.length)  ; i++) {
 					uniqueIds.add(ranking.titleIds[i])
@@ -325,7 +325,7 @@ function initialParams(category: Category, initialFilter?: string[]) {
     let firstAppearance = undefined
     let lastAppearance = undefined
     let worstRanking = undefined
-    for (let ranking of category.rankings) {
+    for (const ranking of category.rankings) {
         const position = ranking.titleIds.findLastIndex(titleId => initialFilter.includes(titleId))
         if (position !== -1) {
             if ((firstAppearance === undefined) || (firstAppearance > ranking.timestamp)) firstAppearance = ranking.timestamp
