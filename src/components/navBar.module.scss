@@ -1,0 +1,75 @@
+@import './../styles/mixins';
+@import './../styles/variables';
+
+.navBar {
+    padding: 8px;
+    background: $bg_light;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+    h1 {
+        flex-grow: 1;
+    }
+
+    label {
+        font-weight: bold;
+    }
+
+    .select {
+        width: 120px;
+    }
+
+    .burgerBtn {
+        display: none;
+    }
+
+    @media (width < 800px) {
+        > label, > .select {
+            display: none;
+        }
+
+        .burgerBtn {
+            display: block;
+        }
+    }
+
+    .collapsibleBackdrop {
+        position: fixed;
+        z-index: 100;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: #0003;
+        backdrop-filter: blur(5px);
+        transition: opacity 0.2s;
+        cursor: pointer;
+
+        .sideMenu {
+            cursor: initial;
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            background: $bg;
+            width: 200px;
+            transition: right 200ms;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 1em;
+            gap: 4px;
+        }
+
+        &.collapsed {
+            opacity: 0;
+            pointer-events: none;
+
+            .sideMenu {
+                right: -200px;
+            }
+        }
+    }
+}

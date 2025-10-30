@@ -1,0 +1,55 @@
+@import './../styles/variables';
+
+.rankingDisplay {
+    display: grid;
+    gap: 4px;
+}
+
+.returnBtn {
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+}
+
+.timePicker {
+    margin: 1em;
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    justify-content: flex-end;
+
+    .month, .year {
+        display: flex;
+        align-items: center;
+    
+        > button {
+            padding: 6px;
+            background: none;
+            color: #aaa;
+            transition: color 200ms;
+    
+            &:hover { background: none; color: $text }
+        }
+
+        > input {
+            padding: 6px;
+            width: 60px;
+            text-align: center;
+            
+            &:not(:hover) { background: none }
+        }
+
+        .select {
+            padding: 6px;
+            width: 100px;
+            text-align: center;
+
+            .selectInput {
+                border: none;
+
+                background: none;
+                &:hover { background: $bg_light }
+            }
+        }
+    }
+}

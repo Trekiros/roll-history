@@ -1,0 +1,107 @@
+@import './../styles/variables';
+
+.graphDisplay {
+    max-height: calc(100dvh - 55px);
+    width: min(100%, 1200px);
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    gap: 1em;
+    margin: auto auto;
+
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        @media (width < 800px) {
+            flex-direction: column;
+            gap: 1em;
+            margin-top: 1em;
+        }
+    }
+
+    .start, .end {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+
+        > label {
+            font-weight: bold;
+            display: none;
+
+            @media (width < 800px) {
+                display: block;
+            }
+        }
+
+        .month, .year {
+            display: flex;
+            align-items: center;
+        
+            > button {
+                padding: 6px;
+                background: none;
+                color: #aaa;
+                transition: color 200ms;
+        
+                &:hover { background: none; color: $text }
+                &:disabled { color: transparent }
+            }
+
+            > input {
+                padding: 6px;
+                width: 60px;
+                text-align: center;
+                
+                &:not(:hover) { background: none }
+            }
+
+            .select {
+                padding: 6px;
+                width: 100px;
+                text-align: center;
+
+                .selectInput {
+                    border: none;
+
+                    background: none;
+                    &:hover { background: $bg_light }
+                }
+            }
+        }
+    }
+
+    .graphContainer {
+        width: 100%;
+        max-height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto auto;
+    }
+
+    .footer {
+        display: flex;
+        gap: 1em;
+
+        @media (width < 800px) {
+            flex-direction: column;
+        }
+    }
+
+    .filter {
+        flex-grow: 1;
+        display: flex;
+        align-items: center;
+        gap: 1em;
+        padding: 0 1em
+    }
+
+    .top {
+        display: flex;
+        align-items: center;
+        gap: 1em;
+        padding: 0 1em
+    }
+}
