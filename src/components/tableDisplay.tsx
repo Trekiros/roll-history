@@ -1,10 +1,10 @@
 import { Category } from "@/model/model";
-import { FC, useMemo, useState } from "react";
+import { FC, useEffect, useMemo, useState } from "react";
 import styles from './tableDisplay.module.scss'
 import { motion, AnimatePresence } from "framer-motion";
 import { TitleDisplay } from "./titleDisplay";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChevronLeft, faChevronRight } from "@fortawesome/free-solid-svg-icons";
+import { faChevronLeft, faChevronRight, faPause, faPlay } from "@fortawesome/free-solid-svg-icons";
 import Select from "./select";
 import { GraphDisplay } from "./graphDisplay";
 
@@ -19,6 +19,22 @@ export const TableDisplay: FC<{ category: Category }> = ({ category }) => {
     const [month, setMonth] = useState(3)
     const [year, setYear] = useState(2016)
     const [inspect, setInspect] = useState<null|string>(null)
+    const [playing, setPlaying] = useState(false)
+
+    useEffect(() => {
+        if (!playing) return;
+
+        const intervalId = setInterval(() => {
+            if (month === 11) {
+                setMonth(0)
+                setYear(year + 1)
+            } else {
+                setMonth(month + 1)
+            }
+        }, 2000)
+
+        return () => clearInterval(intervalId)
+    }, [playing, year, month])
 
     const index = useMemo(() => {
         const date = new Date()
@@ -80,41 +96,64 @@ export const TableDisplay: FC<{ category: Category }> = ({ category }) => {
     </>
 
 	return <>
-        <div className={styles.timePicker}>
-            <div className={styles.month}>
-                <button onClick={() => {
-                    if (month === 0) {
-                        setYear(year - 1)
-                        setMonth(11)
-                    } else {
-                        setMonth(month - 1)
-                    }
-                }}>
-                    <FontAwesomeIcon icon={faChevronLeft} />
-                </button>
-                <Select
-                    className={styles.select}
-                    classNames={{
-                        control: () => styles.selectInput,
-                    }}
-                    value={month}
-                    options={months.map((label, value) => ({ label, value }))}
-                    onChange={newValue => setMonth(newValue)} />
-                <button onClick={() => {
-                    if (month === 11) setYear(year + 1)
-                    setMonth((month + 1) % 12)
-                }}>
-                    <FontAwesomeIcon icon={faChevronRight} />
-                </button>
-            </div>
-            <div className={styles.year}>
-                <button onClick={() => setYear(year - 1)}>
-                    <FontAwesomeIcon icon={faChevronLeft} />
-                </button>
-                <input type="number" value={year} onChange={e => setYear(Number(e.target.value))} />
-                <button onClick={() => setYear(year + 1)}>
-                    <FontAwesomeIcon icon={faChevronRight} />
-                </button>
+        <div className={styles.header}>
+            <button onClick={() => setPlaying(!playing)}>
+                {playing ? <>
+                    Pause <FontAwesomeIcon icon={faPause} />
+                </> : <>
+                    Auto-Play <FontAwesomeIcon icon={faPlay} />
+                </>}
+            </button>
+
+            <div className={styles.timePicker}>
+                <div className={styles.month}>
+                    <button
+                        disabled={playing} 
+                        onClick={() => {
+                            if (month === 0) {
+                                setYear(year - 1)
+                                setMonth(11)
+                            } else {
+                                setMonth(month - 1)
+                            }
+                        }}>
+                            <FontAwesomeIcon icon={faChevronLeft} />
+                    </button>
+                    <Select
+                        disabled={playing}
+                        className={styles.select}
+                        classNames={{
+                            control: () => styles.selectInput,
+                        }}
+                        value={month}
+                        options={months.map((label, value) => ({ label, value }))}
+                        onChange={newValue => setMonth(newValue)} />
+                    <button 
+                        disabled={playing}
+                        onClick={() => {
+                            if (month === 11) setYear(year + 1)
+                            setMonth((month + 1) % 12)
+                        }}>
+                            <FontAwesomeIcon icon={faChevronRight} />
+                    </button>
+                </div>
+                <div className={styles.year}>
+                    <button 
+                        disabled={playing}
+                        onClick={() => setYear(year - 1)}>
+                            <FontAwesomeIcon icon={faChevronLeft} />
+                    </button>
+                    <input
+                        disabled={playing}
+                        type="number" 
+                        value={year} 
+                        onChange={e => setYear(Number(e.target.value))} />
+                    <button
+                        disabled={playing}
+                        onClick={() => setYear(year + 1)}>
+                            <FontAwesomeIcon icon={faChevronRight} />
+                    </button>
+                </div>
             </div>
         </div>
         <div className={styles.rankingDisplay}>

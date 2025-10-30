@@ -11,12 +11,20 @@
     right: 1em;
 }
 
-.timePicker {
+.header {
     margin: 1em;
     display: flex;
     gap: 1em;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: space-between;
+
+    > button {
+        width: 150px;
+    }
+
+    .timePicker {
+        display: flex;
+    }
 
     .month, .year {
         display: flex;
