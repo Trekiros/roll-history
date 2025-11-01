@@ -16,7 +16,7 @@ export const TitleDisplay: FC<{ title: TitleEntry, annotation: Annotation, onIns
     return (
         <div className={styles.titleDisplay}>
             <a className={styles.titleLink} href={title.url} target="_blank">
-                <Image src={title.img || "/img/defaultCover.png"} height={50} width={40} alt={`${title.name} cover art`} />
+                <img src={title.img || "/img/defaultCover.png"} height={80} width={50} alt={`${title.name} cover art`} />
                 <label>{title.name}</label>
                 <div className={`${styles.annotation} ${AnnotationStylesMap[annotation.type]}`}>
                     {annotation.text}

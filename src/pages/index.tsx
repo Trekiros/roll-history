@@ -14,6 +14,8 @@ export default function Home() {
 	const [displayType, setDisplayType] = useState<"table"|"graph"|"top">("table")
 	const [source, setSource] = useState("data/dmsguild.json")
 
+	if (!dmsguild.data) console.log(dmsguild)
+
 	return (
 		<div>
 			<NavBar 

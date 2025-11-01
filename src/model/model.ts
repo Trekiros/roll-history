@@ -9,7 +9,7 @@ export type Ranking = z.infer<typeof RankingSchema>
 export const TitleSchema = z.object({
     name: z.string(),
     url: z.url(),
-    img: z.url().optional(),
+    img: z.string().optional(),
 })
 export type TitleEntry = z.infer<typeof TitleSchema>
 

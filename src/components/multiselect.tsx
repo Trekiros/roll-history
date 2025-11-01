@@ -1,5 +1,9 @@
+'use client';
+
+import dynamic from 'next/dynamic';
 import { JSX, useState } from 'react'
-import ReactSelect, { ClassNamesConfig } from 'react-select'
+import { ClassNamesConfig } from 'react-select'
+const ReactSelect = dynamic(() => import('react-select'), { ssr: false });
 import styles from './multiselect.module.scss'
 
 type PropType<T> = {
