@@ -1,0 +1,114 @@
+{
+  "results": [
+    {
+      "products_id": "215595",
+      "products_number": 1,
+      "products_name": "Monsters of the Orient: Complete Bestiary",
+      "products_image": "/images/8957/215595-thumb140.jpg",
+      "whats_new_price": "$19.99",
+      "lc_text": "",
+      "products_is_pay_what_you_want": "0",
+      "products_avg_rating": 0,
+      "test_ab_recommendation": null
+    },
+    {
+      "products_id": "210151",
+      "products_number": 2,
+      "products_name": "Critter Compendium",
+      "products_image": "/images/8957/210151-thumb140.jpg",
+      "whats_new_price": "$15.00",
+      "lc_text": "",
+      "products_is_pay_what_you_want": "0",
+      "products_avg_rating": 0,
+      "test_ab_recommendation": null
+    },
+    {
+      "products_id": "211941",
+      "products_number": 3,
+      "products_name": "Emirikol's Guide to Devils",
+      "products_image": "/images/8957/211941-thumb140.jpg",
+      "whats_new_price": "$15.00",
+      "lc_text": "",
+      "products_is_pay_what_you_want": "0",
+      "products_avg_rating": 0,
+      "test_ab_recommendation": null
+    },
+    {
+      "products_id": "215866",
+      "products_number": 4,
+      "products_name": "Tome of Adventures",
+      "products_image": "/images/8957/215866-thumb140.jpg",
+      "whats_new_price": "$14.95",
+      "lc_text": "",
+      "products_is_pay_what_you_want": "0",
+      "products_avg_rating": 0,
+      "test_ab_recommendation": null
+    },
+    {
+      "products_id": "198501",
+      "products_number": 5,
+      "products_name": "Complete Adventures of M.T. Black Vol. I",
+      "products_image": "/images/8957/198501-thumb140.png",
+      "whats_new_price": "$9.95",
+      "lc_text": "",
+      "products_is_pay_what_you_want": "0",
+      "products_avg_rating": 0,
+      "test_ab_recommendation": null
+    },
+    {
+      "products_id": "214641",
+      "products_number": 6,
+      "products_name": "Character Options: Talents",
+      "products_image": "/images/8957/214641-thumb140.png",
+      "whats_new_price": "$9.99",
+      "lc_text": "",
+      "products_is_pay_what_you_want": "0",
+      "products_avg_rating": 0,
+      "test_ab_recommendation": null
+    },
+    {
+      "products_id": "186823",
+      "products_number": 7,
+      "products_name": "Character Sheet - MPMB's fully-automated Printer Friendly character generator",
+      "products_image": "/images/8957/186823-thumb140.png",
+      "whats_new_price": "Pay What You Want",
+      "lc_text": "",
+      "products_is_pay_what_you_want": "1",
+      "products_avg_rating": 0,
+      "test_ab_recommendation": null
+    },
+    {
+      "products_id": "187283",
+      "products_number": 8,
+      "products_name": "Heroes of the Orient: Player's and DM's Companion",
+      "products_image": "/images/8957/187283-thumb140.jpg",
+      "whats_new_price": "$9.99",
+      "lc_text": "",
+      "products_is_pay_what_you_want": "0",
+      "products_avg_rating": 0,
+      "test_ab_recommendation": null
+    },
+    {
+      "products_id": "173822",
+      "products_number": 9,
+      "products_name": "Epic Characters",
+      "products_image": "/images/8957/173822-thumb140.jpg",
+      "whats_new_price": "$9.99",
+      "lc_text": "",
+      "products_is_pay_what_you_want": "0",
+      "products_avg_rating": 0,
+      "test_ab_recommendation": null
+    },
+    {
+      "products_id": "215482",
+      "products_number": 10,
+      "products_name": "Finders Keepers",
+      "products_image": "/images/8957/215482-thumb140.jpg",
+      "whats_new_price": "$3.99",
+      "lc_text": "",
+      "products_is_pay_what_you_want": "0",
+      "products_avg_rating": 0,
+      "test_ab_recommendation": null
+    }
+  ]
+}

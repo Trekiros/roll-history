@@ -1,0 +1,114 @@
+{
+  "results": [
+    {
+      "products_id": "234150",
+      "products_number": 1,
+      "products_name": "Monsters of the Guild",
+      "products_image": "/images/8957/234150-thumb140.png",
+      "whats_new_price": "$14.95",
+      "lc_text": "",
+      "products_is_pay_what_you_want": "0",
+      "products_avg_rating": 0,
+      "test_ab_recommendation": null
+    },
+    {
+      "products_id": "237842",
+      "products_number": 2,
+      "products_name": "Xanathar's Extraordinary Vault",
+      "products_image": "/images/8957/237842-thumb140.jpg",
+      "whats_new_price": "$9.95",
+      "lc_text": "",
+      "products_is_pay_what_you_want": "0",
+      "products_avg_rating": 0,
+      "test_ab_recommendation": null
+    },
+    {
+      "products_id": "238722",
+      "products_number": 3,
+      "products_name": "The Book of Dragons for 5th Edition",
+      "products_image": "/images/8957/238722-thumb140.jpg",
+      "whats_new_price": "$14.99",
+      "lc_text": "",
+      "products_is_pay_what_you_want": "0",
+      "products_avg_rating": 0,
+      "test_ab_recommendation": null
+    },
+    {
+      "products_id": "229989",
+      "products_number": 4,
+      "products_name": "Player's Companion",
+      "products_image": "/images/8957/229989-thumb140.png",
+      "whats_new_price": "\u003Cs\u003E\u003Cspan class=\"productStrikePrice\" style=\"text-decoration:line-through\"\u003E$14.95\u003C/span\u003E\u003C/s\u003E \u003Cspan class=\"productSpecialPrice\"\u003E$10.02\u003C/span\u003E",
+      "lc_text": "",
+      "products_is_pay_what_you_want": "0",
+      "products_avg_rating": 0,
+      "test_ab_recommendation": null
+    },
+    {
+      "products_id": "232835",
+      "products_number": 5,
+      "products_name": "Class Character Sheets - The Bundle",
+      "products_image": "/images/8957/232835-thumb140.jpg",
+      "whats_new_price": "Pay What You Want",
+      "lc_text": "",
+      "products_is_pay_what_you_want": "1",
+      "products_avg_rating": 0,
+      "test_ab_recommendation": null
+    },
+    {
+      "products_id": "238261",
+      "products_number": 6,
+      "products_name": "Monsters Without Borders",
+      "products_image": "/images/8957/238261-thumb140.jpg",
+      "whats_new_price": "Pay What You Want",
+      "lc_text": "",
+      "products_is_pay_what_you_want": "1",
+      "products_avg_rating": 0,
+      "test_ab_recommendation": null
+    },
+    {
+      "products_id": "241776",
+      "products_number": 7,
+      "products_name": "50 Notice Board Quests",
+      "products_image": "/images/8957/241776-thumb140.jpg",
+      "whats_new_price": "$3.00",
+      "lc_text": "",
+      "products_is_pay_what_you_want": "0",
+      "products_avg_rating": 0,
+      "test_ab_recommendation": null
+    },
+    {
+      "products_id": "221735",
+      "products_number": 8,
+      "products_name": "Elminster's Guide to Magic",
+      "products_image": "/images/8957/221735-thumb140.png",
+      "whats_new_price": "\u003Cs\u003E\u003Cspan class=\"productStrikePrice\" style=\"text-decoration:line-through\"\u003E$14.95\u003C/span\u003E\u003C/s\u003E \u003Cspan class=\"productSpecialPrice\"\u003E$10.02\u003C/span\u003E",
+      "lc_text": "",
+      "products_is_pay_what_you_want": "0",
+      "products_avg_rating": 0,
+      "test_ab_recommendation": null
+    },
+    {
+      "products_id": "198501",
+      "products_number": 9,
+      "products_name": "Complete Adventures of M.T. Black Vol. I",
+      "products_image": "/images/8957/198501-thumb140.png",
+      "whats_new_price": "\u003Cs\u003E\u003Cspan class=\"productStrikePrice\" style=\"text-decoration:line-through\"\u003E$9.95\u003C/span\u003E\u003C/s\u003E \u003Cspan class=\"productSpecialPrice\"\u003E$6.67\u003C/span\u003E",
+      "lc_text": "",
+      "products_is_pay_what_you_want": "0",
+      "products_avg_rating": 0,
+      "test_ab_recommendation": null
+    },
+    {
+      "products_id": "234947",
+      "products_number": 10,
+      "products_name": "A Fistful of Coppers: 26 Guild Best-Sellers",
+      "products_image": "/images/8957/234947-thumb140.png",
+      "whats_new_price": "$19.95",
+      "lc_text": "",
+      "products_is_pay_what_you_want": "0",
+      "products_avg_rating": 0,
+      "test_ab_recommendation": null
+    }
+  ]
+}

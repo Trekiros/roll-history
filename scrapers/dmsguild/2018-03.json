@@ -1,0 +1,114 @@
+{
+  "results": [
+    {
+      "products_id": "229989",
+      "products_number": 1,
+      "products_name": "Player's Companion",
+      "products_image": "/images/8957/229989-thumb140.png",
+      "whats_new_price": "$14.95",
+      "lc_text": "",
+      "products_is_pay_what_you_want": "0",
+      "products_avg_rating": 0,
+      "test_ab_recommendation": null
+    },
+    {
+      "products_id": "234947",
+      "products_number": 2,
+      "products_name": "A Fistful of Coppers",
+      "products_image": "/images/8957/234947-thumb140.png",
+      "whats_new_price": "$19.95",
+      "lc_text": "",
+      "products_is_pay_what_you_want": "0",
+      "products_avg_rating": 0,
+      "test_ab_recommendation": null
+    },
+    {
+      "products_id": "232835",
+      "products_number": 3,
+      "products_name": "Class Character Sheets - The Bundle",
+      "products_image": "/images/8957/232835-thumb140.jpg",
+      "whats_new_price": "Pay What You Want",
+      "lc_text": "",
+      "products_is_pay_what_you_want": "1",
+      "products_avg_rating": 0,
+      "test_ab_recommendation": null
+    },
+    {
+      "products_id": "236655",
+      "products_number": 4,
+      "products_name": "The Vigilante Class",
+      "products_image": "/images/8957/236655-thumb140.png",
+      "whats_new_price": "$2.00",
+      "lc_text": "",
+      "products_is_pay_what_you_want": "0",
+      "products_avg_rating": 0,
+      "test_ab_recommendation": null
+    },
+    {
+      "products_id": "230312",
+      "products_number": 5,
+      "products_name": "Monstrous Races",
+      "products_image": "/images/8957/230312-thumb140.jpg",
+      "whats_new_price": "$2.99",
+      "lc_text": "",
+      "products_is_pay_what_you_want": "0",
+      "products_avg_rating": 0,
+      "test_ab_recommendation": null
+    },
+    {
+      "products_id": "221735",
+      "products_number": 6,
+      "products_name": "Elminster's Guide to Magic",
+      "products_image": "/images/8957/221735-thumb140.png",
+      "whats_new_price": "$14.95",
+      "lc_text": "",
+      "products_is_pay_what_you_want": "0",
+      "products_avg_rating": 0,
+      "test_ab_recommendation": null
+    },
+    {
+      "products_id": "198501",
+      "products_number": 7,
+      "products_name": "Complete Adventures of M.T. Black Vol. I",
+      "products_image": "/images/8957/198501-thumb140.png",
+      "whats_new_price": "\u003Cs\u003E\u003Cspan class=\"productStrikePrice\" style=\"text-decoration:line-through\"\u003E$9.95\u003C/span\u003E\u003C/s\u003E \u003Cspan class=\"productSpecialPrice\"\u003E$6.67\u003C/span\u003E",
+      "lc_text": "",
+      "products_is_pay_what_you_want": "0",
+      "products_avg_rating": 0,
+      "test_ab_recommendation": null
+    },
+    {
+      "products_id": "215595",
+      "products_number": 8,
+      "products_name": "Monsters of the Orient: Complete Bestiary",
+      "products_image": "/images/8957/215595-thumb140.jpg",
+      "whats_new_price": "$19.99",
+      "lc_text": "",
+      "products_is_pay_what_you_want": "0",
+      "products_avg_rating": 0,
+      "test_ab_recommendation": null
+    },
+    {
+      "products_id": "218782",
+      "products_number": 9,
+      "products_name": "The Comprehensive Equipment Manual [Revised]",
+      "products_image": "/images/8957/218782-thumb140.jpg",
+      "whats_new_price": "\u003Cs\u003E\u003Cspan class=\"productStrikePrice\" style=\"text-decoration:line-through\"\u003E$12.95\u003C/span\u003E\u003C/s\u003E \u003Cspan class=\"productSpecialPrice\"\u003E$8.68\u003C/span\u003E",
+      "lc_text": "",
+      "products_is_pay_what_you_want": "0",
+      "products_avg_rating": 0,
+      "test_ab_recommendation": null
+    },
+    {
+      "products_id": "229097",
+      "products_number": 10,
+      "products_name": "Everything Rob Twohy Sale",
+      "products_image": "/images/8957/229097-thumb140.jpg",
+      "whats_new_price": "$59.95",
+      "lc_text": "",
+      "products_is_pay_what_you_want": "0",
+      "products_avg_rating": 0,
+      "test_ab_recommendation": null
+    }
+  ]
+}

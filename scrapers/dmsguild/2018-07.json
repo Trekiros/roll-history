@@ -1,0 +1,114 @@
+{
+  "results": [
+    {
+      "products_id": "243212",
+      "products_number": 1,
+      "products_name": "Faiths of the Forgotten Realms",
+      "products_image": "/images/8957/243212-thumb140.jpg",
+      "whats_new_price": "$14.95",
+      "lc_text": "",
+      "products_is_pay_what_you_want": "0",
+      "products_avg_rating": 0,
+      "test_ab_recommendation": null
+    },
+    {
+      "products_id": "242485",
+      "products_number": 2,
+      "products_name": "Nerzugal's Dungeon Master Toolkit 2",
+      "products_image": "/images/8957/242485-thumb140.jpg",
+      "whats_new_price": "Pay What You Want",
+      "lc_text": "",
+      "products_is_pay_what_you_want": "1",
+      "products_avg_rating": 0,
+      "test_ab_recommendation": null
+    },
+    {
+      "products_id": "237842",
+      "products_number": 3,
+      "products_name": "Xanathar's Extraordinary Vault",
+      "products_image": "/images/8957/237842-thumb140.jpg",
+      "whats_new_price": "$9.95",
+      "lc_text": "",
+      "products_is_pay_what_you_want": "0",
+      "products_avg_rating": 0,
+      "test_ab_recommendation": null
+    },
+    {
+      "products_id": "245542",
+      "products_number": 4,
+      "products_name": "D&amp;D Solo Adventure: Citadel of the Raven",
+      "products_image": "/images/8957/245542-thumb140.jpg",
+      "whats_new_price": "$9.95",
+      "lc_text": "",
+      "products_is_pay_what_you_want": "0",
+      "products_avg_rating": 0,
+      "test_ab_recommendation": null
+    },
+    {
+      "products_id": "234150",
+      "products_number": 5,
+      "products_name": "Monsters of the Guild",
+      "products_image": "/images/8957/234150-thumb140.png",
+      "whats_new_price": "$14.95",
+      "lc_text": "",
+      "products_is_pay_what_you_want": "0",
+      "products_avg_rating": 0,
+      "test_ab_recommendation": null
+    },
+    {
+      "products_id": "220997",
+      "products_number": 6,
+      "products_name": "D&amp;D Solo Adventure: The Death Knight's Squire",
+      "products_image": "/images/8957/220997-thumb140.jpg",
+      "whats_new_price": "$9.95",
+      "lc_text": "",
+      "products_is_pay_what_you_want": "0",
+      "products_avg_rating": 0,
+      "test_ab_recommendation": null
+    },
+    {
+      "products_id": "245059",
+      "products_number": 7,
+      "products_name": "The Complete Martialist Handbook",
+      "products_image": "/images/8957/245059-thumb140.jpg",
+      "whats_new_price": "$5.95",
+      "lc_text": "",
+      "products_is_pay_what_you_want": "0",
+      "products_avg_rating": 0,
+      "test_ab_recommendation": null
+    },
+    {
+      "products_id": "238722",
+      "products_number": 8,
+      "products_name": "The Book of Dragons for 5th Edition",
+      "products_image": "/images/8957/238722-thumb140.jpg",
+      "whats_new_price": "$14.99",
+      "lc_text": "",
+      "products_is_pay_what_you_want": "0",
+      "products_avg_rating": 0,
+      "test_ab_recommendation": null
+    },
+    {
+      "products_id": "232835",
+      "products_number": 9,
+      "products_name": "Class Character Sheets - The Bundle",
+      "products_image": "/images/8957/232835-thumb140.jpg",
+      "whats_new_price": "Pay What You Want",
+      "lc_text": "",
+      "products_is_pay_what_you_want": "1",
+      "products_avg_rating": 0,
+      "test_ab_recommendation": null
+    },
+    {
+      "products_id": "229989",
+      "products_number": 10,
+      "products_name": "Player's Companion",
+      "products_image": "/images/8957/229989-thumb140.png",
+      "whats_new_price": "$14.95",
+      "lc_text": "",
+      "products_is_pay_what_you_want": "0",
+      "products_avg_rating": 0,
+      "test_ab_recommendation": null
+    }
+  ]
+}
